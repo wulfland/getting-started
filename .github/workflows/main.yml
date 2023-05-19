@@ -1,0 +1,9 @@
+name: main
+
+on: [push, pull_request, workflow_dispatch]
+
+jobs:
+  main:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "This is just a test"
