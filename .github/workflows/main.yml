@@ -6,4 +6,4 @@ jobs:
   main:
     runs-on: ubuntu-latest
     steps:
-      - run: echo "This is just a test"
+      - run: echo "Trigger ${{ github.event_name }}"
